@@ -10,17 +10,16 @@ export const defaultSetting = {
   model: "gpt-3.5-turbo" as Model
 }
 
-export const defaultMessage = `OpenAI
-- 1.如果本项目对你有所帮助， 可以给孩子买点零食，但不接受任何付费功能请求，[点击链接](https://cdn.jsdelivr.net/gh/15055014925/chatgpt-vercel-nie@master/assets/20230331122519.jpg)。
+export const defaultMessage = `做个广告:小周周超可爱，不过是我的，嘿嘿。
+- 1.如果本项目对你有所帮助， 可以给孩子买点零食，但不接受任何付费功能请求，[点击链接](https://cdn.jsdelivr.net/gh/15055014925/chatgpt-vercel-nie@master/assets/20230331122519.png)。
 - 2.本网站仅作为项目演示，不提供长期服务，网站密码为 \`nie\`。
 - 3.可以自己选择OpenAI 模型并输入自己的key进行操作，如果自己没有key，默认使用的是我提供的gtp3.5的key。
 - 4.因默认的gtp3.5的API Key 由我自己免费提供，所以请不要滥用
 - 5.OpenAI 并没有提供 ChatGPT 那样的上下文功能，只能每次都把全部对话传过去，并且都要算 token，而且仍然有最大 4096 token 的限制。
 - 6.OpenAI 模型需要注意的是, 只有获得了 GPT4 API 内测资格的用户才可以使用您的 API KEY 调用 GPT4。
-- 7.有偿回答问题，付款时自己的联系方式写备注里，有问题先可以自己问问AI，[点击链接](https://cdn.jsdelivr.net/gh/15055014925/chatgpt-vercel-nie@master/assets/20230331130755.jpg)。
+- 7.有偿回答问题，付款时自己的联系方式写备注里，有问题先可以自己问问AI，[点击链接](https://cdn.jsdelivr.net/gh/15055014925/chatgpt-vercel-nie@master/assets/202303311307552.png)。
 - 8.提醒:各种卖号的卖个几十元的都是坑，不如自己去注册，当然钱多无所谓。
-- 9.[[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。点击顶部名称滚动到顶部，点击输入框滚动到底部。
-- 10.最后做个广告:小周周超可爱，不过是我的，嘿嘿。`
+- 9.[[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。点击顶部名称滚动到顶部，点击输入框滚动到底部。`
 
 export type Setting = typeof defaultSetting
 
